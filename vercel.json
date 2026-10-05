@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/",
+      "destination": "https://pastry-petal-magic.lovable.app/"
+    },
+    {
       "source": "/:path*",
       "destination": "https://pastry-petal-magic.lovable.app/:path*"
     }
