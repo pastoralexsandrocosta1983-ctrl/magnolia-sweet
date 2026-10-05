@@ -8,16 +8,5 @@
       "source": "/:path*",
       "destination": "https://pastry-petal-magic.lovable.app/:path*"
     }
-  ],
-  "headers": [
-    {
-      "source": "/:path*",
-      "headers": [
-        {
-          "key": "Link",
-          "value": "<data:text/css,#lovable-badge%20%7B%20display%3A%20none%20!important%3B%20%7D%20%5Bclass%2F%3D'lovable-badge'%5D%20%7B%20display%3A%20none%20!important%3B%20%7D>; rel=stylesheet"
-        }
-      ]
-    }
   ]
 }
